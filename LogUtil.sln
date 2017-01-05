@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogUtil", "LogUtil\LogUtil.csproj", "{475CB084-1922-4D80-BE09-BA45DF4BB6F6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HostProject", "HostProject\HostProject.csproj", "{99C0BB54-E87D-40AD-B1BF-46768E513E3E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HostProject1", "HostProject1\HostProject1.csproj", "{15948547-D990-42CC-9483-D5A009288AA3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{475CB084-1922-4D80-BE09-BA45DF4BB6F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{475CB084-1922-4D80-BE09-BA45DF4BB6F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{475CB084-1922-4D80-BE09-BA45DF4BB6F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{475CB084-1922-4D80-BE09-BA45DF4BB6F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99C0BB54-E87D-40AD-B1BF-46768E513E3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99C0BB54-E87D-40AD-B1BF-46768E513E3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99C0BB54-E87D-40AD-B1BF-46768E513E3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99C0BB54-E87D-40AD-B1BF-46768E513E3E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15948547-D990-42CC-9483-D5A009288AA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15948547-D990-42CC-9483-D5A009288AA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15948547-D990-42CC-9483-D5A009288AA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15948547-D990-42CC-9483-D5A009288AA3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
