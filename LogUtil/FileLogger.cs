@@ -12,18 +12,20 @@ namespace LogUtil
             log4net.Config.XmlConfigurator.Configure();
         }
 
-        public static void Error(object message)
+        public static bool Error(object message)
         {
             try
             {
                 logger.Error(message + "\n");
+                return true;
             }
             catch
             {
+                return false;
             }
         }
 
-        public static void Error(object message, Exception ex)
+        public static bool Error(object message, Exception ex)
         {
             try
             {
@@ -33,9 +35,11 @@ namespace LogUtil
                     error = ex.ToString() + "\n"
                 };
                 logger.Error(log);
+                return true;
             }
             catch
             {
+                return false;
             }
         }
     }

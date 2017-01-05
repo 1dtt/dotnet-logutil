@@ -13,7 +13,7 @@ namespace HostProject1
         {
             LogUtil.FileLogger.Configure();
 
-            FileLogger.Error("OK", new Exception("asdasd"));
+            FileLogger.Error("OK", new Exception("asdasd111"));
             Console.ReadKey();
         }
     }

@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HostProject", "HostProject\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HostProject1", "HostProject1\HostProject1.csproj", "{15948547-D990-42CC-9483-D5A009288AA3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmailLoggerTest", "EmailLoggerTest\EmailLoggerTest.csproj", "{26A85AC6-B4C9-4840-A855-5588DDEE2495}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{15948547-D990-42CC-9483-D5A009288AA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{15948547-D990-42CC-9483-D5A009288AA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{15948547-D990-42CC-9483-D5A009288AA3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26A85AC6-B4C9-4840-A855-5588DDEE2495}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26A85AC6-B4C9-4840-A855-5588DDEE2495}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26A85AC6-B4C9-4840-A855-5588DDEE2495}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26A85AC6-B4C9-4840-A855-5588DDEE2495}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
